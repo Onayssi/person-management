@@ -2,6 +2,7 @@
 A simple web based application that allow user to manage persons and members.
 # Description
 This application concerns the management of persons and members which handle the relevant CRUD operations. Built using Yii2 Framework.
+
 ** Master account for authentication:
 The basic credentials for this application are set during the building. It's required to have them as the first time of use. Then when accessing the system, the master member (administrator) will be able to create and manage many accounts (with different roles) under the /Members tab. The credentials are mentioned below:
 - Username: ```ounayssi```
@@ -23,6 +24,7 @@ When logging in (as a moderator), the member has access to all sections above ex
 - MySQL Version 5.6.17 and greater
 - PDO extension for MySQL must be loaded
 - Online web server or local web server, e.g (XAMPP, WAMP, MAMP, LAMP)
+
 #Application Settings
 The application is running without pretty URLs, meaning, no need to enable the rewrite mode and related modules from the web server. 
 To enable the pretty URLS, set the relevant parameter to true from the web file in configuration folder: ```'enablePrettyUrl' => true```.
