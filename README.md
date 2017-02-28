@@ -24,6 +24,7 @@ When logging in (as a moderator), the member has access to all sections above ex
 - MySQL Version 5.6.17 and greater
 - PDO extension for MySQL must be loaded
 - Online web server or local web server, e.g (XAMPP, WAMP, MAMP, LAMP)
+
 #Application Settings
 The application is running without pretty URLs, meaning, no need to enable the rewrite mode and related modules from the web server. 
 To enable the pretty URLS, set the relevant parameter to true from the web file in configuration folder: ```'enablePrettyUrl' => true```.
