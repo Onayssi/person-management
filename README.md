@@ -6,6 +6,7 @@ This application concerns the management of persons and members which handle the
 The basic credentials for this application are set during the building. It's required to have them as the first time of use. Then when accessing the system, the master member (administrator) will be able to create and manage many accounts (with different roles) under the /Members tab. The credentials are mentioned below:
 - Username: ```ounayssi```
 - Password: ```tps001```
+
 # Process
 The application includes two roles, administrator (high level) and moderator (without managing members).
 A member cans login by entering the username and password related to his account. An message notification will be appeared when an error is occurred (wrong credentials or blocking user).
@@ -26,6 +27,7 @@ When logging in (as a moderator), the member has access to all sections above ex
 #Application Settings
 The application is running without pretty URLs, meaning, no need to enable the rewrite mode and related modules from the web server. 
 To enable the pretty URLS, set the relevant parameter to true from the web file in configuration folder: ```'enablePrettyUrl' => true```.
+
 ###Mail Configuration:
 The application uses swiftmailer vendor to send emails using SMTP protocol. The SMTP parameters are location inside the params.php in the configuration folder. This file contains all parameters required and needed for the application:
 - adminEmail: The mail support (master), which mails are sending behalf it.
