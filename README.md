@@ -3,7 +3,7 @@ A simple web based application that allow user to manage persons and members.
 # Description
 This application concerns the management of persons and members which handle the relevant CRUD operations. Built using Yii2 Framework.
 
-** Master account for authentication:
+**Master account for authentication:
 The basic credentials for this application are set during the building. It's required to have them as the first time of use. Then when accessing the system, the master member (administrator) will be able to create and manage many accounts (with different roles) under the /Members tab. The credentials are mentioned below:
 - Username: ```ounayssi```
 - Password: ```tps001```
@@ -28,7 +28,7 @@ When logging in (as a moderator), the member has access to all sections above ex
 #Application Settings
 The application is running without pretty URLs, meaning, no need to enable the rewrite mode and related modules from the web server. 
 To enable the pretty URLS, set the relevant parameter to true from the web file in configuration folder: ```'enablePrettyUrl' => true```.
-** Mail Configuration
+**Mail Configuration
 The application uses swiftmailer vendor to send emails using SMTP protocol. The SMTP parameters are location inside the params.php in the configuration folder. This file contains all parameters required and needed for the application:
 - adminEmail: The mail support (master), which mails are sending behalf it.
 - smtp_hostname: The host name value (address) for the SMTP server.
@@ -38,7 +38,7 @@ The application uses swiftmailer vendor to send emails using SMTP protocol. The 
 - mailNotification: Standard message which suppose to be sent to the relevant user when creating a new member.
 
 The swift mailer configuration part is set for the web configuration file in the configuration folder, by setting the transport parameter with the global parameters of the mail configuration. The ```useFileTransport``` must be set to false in order to send a real mails.
-** Database Configuration
+**Database Configuration
 There is a relationship between Person and Language. Each Person has a one specific language which is set during the creation of a new member.
 
 To set the database configuration (host, username and password), access the db.php file from the configuration folder, and set the proper parameters required.
