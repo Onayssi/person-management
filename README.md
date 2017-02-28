@@ -2,7 +2,7 @@
 A simple web based application that allow user to manage persons and members.
 # Description
 This application concerns the management of persons and members which handle the relevant CRUD operations. Built using Yii2 Framework.
-**Master account for authentication**
+##Master account for authentication
 The basic credentials for this application are set during the building. It's required to have them as the first time of use. Then when accessing the system, the master member (administrator) will be able to create and manage many accounts (with different roles) under the /Members tab. The credentials are mentioned below:
 - Username: ```ounayssi```
 - Password: ```tps001```
