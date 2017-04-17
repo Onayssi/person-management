@@ -43,6 +43,7 @@ The swift mailer configuration part is set for the web configuration file in the
 There is a relationship between Person and Language. Each Person has a one specific language which is set during the creation of a new member.
 
 To set the database configuration (host, username and password), access the db.php file from the configuration folder, and set the proper parameters required.
-#Copyright
+
+# Copyright
 Copyright (c) 2010 - 2017 Mouhamad Ounayssi.<br>
 Blog: https://www.mouhamadounayssi.wordpress.com.
