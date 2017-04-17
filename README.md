@@ -29,7 +29,7 @@ When logging in (as a moderator), the member has access to all sections above ex
 The application is running without pretty URLs, meaning, no need to enable the rewrite mode and related modules from the web server. 
 To enable the pretty URLS, set the relevant parameter to true from the web file in configuration folder: ```'enablePrettyUrl' => true```.
 
-###Mail Configuration:
+### Mail Configuration:
 The application uses swiftmailer vendor to send emails using SMTP protocol. The SMTP parameters are location inside the params.php in the configuration folder. This file contains all parameters required and needed for the application:
 - adminEmail: The mail support (master), which mails are sending behalf it.
 - smtp_hostname: The host name value (address) for the SMTP server.
@@ -39,7 +39,7 @@ The application uses swiftmailer vendor to send emails using SMTP protocol. The 
 - mailNotification: Standard message which suppose to be sent to the relevant user when creating a new member.
 
 The swift mailer configuration part is set for the web configuration file in the configuration folder, by setting the transport parameter with the global parameters of the mail configuration. The ```useFileTransport``` must be set to false in order to send a real mails.
-###Database Configuration:
+### Database Configuration:
 There is a relationship between Person and Language. Each Person has a one specific language which is set during the creation of a new member.
 
 To set the database configuration (host, username and password), access the db.php file from the configuration folder, and set the proper parameters required.
