@@ -1,5 +1,5 @@
 # person-management
-A simple web based application that allow user to manage persons and members.
+A simple web based application that allows users to manage persons and members.
 # Description
 This application concerns the management of persons and members which handle the relevant CRUD operations. Built using Yii2 Framework.
 ### Master account for authentication:
@@ -46,4 +46,4 @@ To set the database configuration (host, username and password), access the db.p
 
 # Copyright
 Copyright (c) 2010 - 2017 Mouhamad Ounayssi.<br>
-Blog: https://www.mouhamadounayssi.wordpress.com.
+Blog: https://www.mouhamadonayssi.wordpress.com.
